@@ -30,8 +30,8 @@ export default function Carousel({
                 className="flex transition-transform ease-out duration-500"
                 style={{ transform: `translateX(-${curr * 100}%)` }}
             >
-                {slides.map((img) => (
-                    <Image src='/CarouselImage.webp' alt="" height={1000} width={1000} />
+                {slides.map((img,i ) => (
+                    <Image key={i} src='/CarouselImage.webp' alt="" height={1000} width={1000} />
                 ))}
             </div>
             <div className="absolute inset-0 flex items-center justify-between p-4">
@@ -52,7 +52,7 @@ export default function Carousel({
             <div className="absolute bottom-4 right-0 left-0">
                 <div className="flex items-center justify-center gap-2">
                     {slides.map((_, i) => (
-                        <div
+                        <div key={i}
                             className={`
               transition-all w-3 h-3 bg-white rounded-full
               ${curr === i ? "p-2" : "bg-opacity-50"}

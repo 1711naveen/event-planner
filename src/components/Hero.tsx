@@ -9,7 +9,7 @@ const Hero = () => {
                 <h1 className='text-5xl font-bold text-wrap my-8'>
                     We <span className='bg-gradient-to-r from-[#f97a25]  to-[#8489b2] inline-block text-transparent bg-clip-text'>Facilitate</span>,
                     You Create</h1>
-                <p className='text-2xl my-8'>Celebrate Life's Moments with Flawless Events - Our platform lets you seamlessly book decorators, caterers, venues, photographers, musicians, and more, ensuring a stress-free and delightful experience.</p>
+                <p className='text-2xl my-8'>Celebrate Life&apos;s Moments with Flawless Events - Our platform lets you seamlessly book decorators, caterers, venues, photographers, musicians, and more, ensuring a stress-free and delightful experience.</p>
                 <Button input='Get Started' color='blue'/>
             </div>
             <div className='md:w-1/2 border-2 bg-[#fff] p-2 m-2'>
