@@ -1,5 +1,5 @@
+'use client'
 import React from 'react'
-import GooglePlayButton from './GooglePlayButton'
 
 const Footer = () => {
   return (
@@ -62,9 +62,7 @@ const Footer = () => {
         </div>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
         <div className="">
-          <GooglePlayButton/>
         </div>
-
       </div>
     </footer>
   )
