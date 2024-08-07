@@ -3,7 +3,7 @@ import LastImage from './LastImage'
 
 const Partners = () => {
   return (
-    <div className='grid grid-cols-2 my-40'>
+    <div className='md:grid md:grid-cols-2 my-16 md:my-40'>
       <LastImage/>
       <LastImage/>
     </div>

@@ -10,7 +10,7 @@ const TaskCard = ({
     img: string;
 }) => {
     return (
-        <Link href='/' className=" bg-[#efeff5] border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700 mx-2 px-4 w-32 h-20">
+        <Link href='/' className=" bg-[#efeff5] border border-gray-200 rounded-2xl md:rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700 md:px-4 md:w-32 md:h-20">
             <div className='flex justify-center items-center'>
                 <Image className="rounded-t-lg" src={img} alt="" height={32} width={32} />
             </div>

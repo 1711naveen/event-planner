@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <div className="bg-[url('https://eventstan.com/home/bg-1.svg')] bg-no-repeat bg-contain ">
+      <div className="bg-[url('https://eventstan.com/home/bg-1.svg')] bg-no-repeat bg-cover ">
         <Hero />
         <EventList/>
         <TaskList/>
         <AppImage/>
-        <CarouselWrapper/>
+        {/* <CarouselWrapper/> */}
       </div>
       <Partners/>
       <Footer/>
