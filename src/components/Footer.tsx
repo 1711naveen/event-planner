@@ -5,6 +5,7 @@ import MacStore from './MacStore'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa6'
 import { IoLogoWhatsapp } from 'react-icons/io'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -15,13 +16,27 @@ const Footer = () => {
             <h2 className="mb-6 text-sm font-semibold text-[#fff]">Company</h2>
             <ul className="text-[#fff] dark:text-gray-400 font-medium">
               <li className="mb-4">
-                <a href="#" className=" hover:underline">About</a>
+                <Link href="#" className=" hover:underline">About</Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">Blog</a>
+                <Link href="#" className="hover:underline">Blog</Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">Vendor Portal</a>
+                <Link href="#" className="hover:underline">Vendor Portal</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-[#fff]">More</h2>
+            <ul className="text-[#fff] dark:text-gray-400 font-medium">
+              <li className="mb-4">
+                <Link href="#" className="hover:underline">Contact Us</Link>
+              </li>
+              <li className="mb-4">
+                <Link href="#" className="hover:underline">FAQs</Link>
+              </li>
+              <li className="mb-4">
+                <Link href="#" className="hover:underline">Partner with us</Link>
               </li>
             </ul>
           </div>
@@ -29,27 +44,13 @@ const Footer = () => {
             <h2 className="mb-6 text-sm font-semibold text-[#fff]">Company</h2>
             <ul className="text-[#fff] dark:text-gray-400 font-medium">
               <li className="mb-4">
-                <a href="#" className="hover:underline">Contact Us</a>
+                <Link href="#" className="hover:underline">Book an Event</Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">FAQs</a>
+                <Link href="#" className="hover:underline">Hire a Professional</Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">Partner with us</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-[#fff]">Company</h2>
-            <ul className="text-[#fff] dark:text-gray-400 font-medium">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">Book an Event</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">Hire a Professional</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">Corporate Bookings</a>
+                <Link href="#" className="hover:underline">Corporate Bookings</Link>
               </li>
             </ul>
           </div>
@@ -57,31 +58,31 @@ const Footer = () => {
             <h2 className="mb-6 text-sm font-semibold text-[#fff]">Company</h2>
             <ul className="text-[#fff] dark:text-gray-400 font-medium">
               <li className="mb-4">
-                <a href="#" className="hover:underline">Terms & Conditions</a>
+                <Link href="#" className="hover:underline">Terms & Conditions</Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">Privacy Policy</a>
+                <Link href="#" className="hover:underline">Privacy Policy</Link>
               </li>
             </ul>
           </div>
         </div>
-        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-        <div className="flex justify-center items-center">
-          <div className='flex-none text-white flex '>
+        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+        <div className="md:flex md:justify-center md:items-center">
+          <div className='md:flex-none text-white flex '>
             <FaFacebookF className='m-2' />
             <FaInstagram className='m-2' />
             <FaLinkedin className='m-2' />
             <IoLogoWhatsapp className='m-2' />
           </div>
 
-          <div className='flex-none mx-4'>
+          <div className='md:flex-none mx-4'>
             <AppStoreButton />
           </div>
-          <div className='flex-none mx-4'>
+          <div className='md:flex-none mx-4'>
             <MacStore />
           </div>
-          <div className='flex-1 '>
-            <p className='text-white text-right text-sm'>© Copyright 2024 EventStan, All Rights Reserved</p>
+          <div className='md:flex-1 '>
+            <p className='text-white md:text-right text-sm'>© Copyright 2024 EventStan, All Rights Reserved</p>
           </div>
 
         </div>

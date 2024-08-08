@@ -1,24 +1,28 @@
 export const eventSupported = [
-  { eventName: "Anniversary", img: "/Anniversary.webp" },
-  { eventName: "Anniversary", img: "/Anniversary.webp" },
-  { eventName: "Anniversary", img: "/Anniversary.webp" },
-  { eventName: "Anniversary", img: "/Anniversary.webp" },
-  { eventName: "Anniversary", img: "/Anniversary.webp" },
-  { eventName: "Anniversary", img: "/Anniversary.webp" },
+  { eventName: "Anniversary", img: "/EventsSupported/Anniversary.webp" },
+  { eventName: "Baby Shower", img: "/EventsSupported/babyshower.webp" },
+  { eventName: "Birthday", img: "/EventsSupported/birthday.webp" },
+  { eventName: "Casual Hangouts", img: "/EventsSupported/casual.webp" },
+  { eventName: "Date", img: "/EventsSupported/date.webp" },
+  { eventName: "Proposal", img: "/EventsSupported/Proposal.webp" },
 ]
 
+
+
 export const tasksProvided = [
-  { name: "Activations", img: "/Activationsicon.webp" },
-  { name: "Activations", img: "/Activationsicon.webp" },
-  { name: "Activations", img: "/Activationsicon.webp" },
-  { name: "Activations", img: "/Activationsicon.webp" },
-  { name: "Activations", img: "/Activationsicon.webp" },
-  { name: "Activations", img: "/Activationsicon.webp" },
-  { name: "Activations", img: "/Activationsicon.webp" },
-  { name: "Activations", img: "/Activationsicon.webp" },
-  { name: "Activations", img: "/Activationsicon.webp" },
-  { name: "Activations", img: "/Activationsicon.webp" },
+  { name: "Activations", img: "/tasks/Activations.png" },
+  { name: "Event Staff", img: "/tasks/Vector.png" },
+  { name: "Face Painter", img: "/tasks/face_painter.svg" },
+  { name: "Choreographer", img: "/tasks/Choreographer.svg" },
+  { name: "Videographer", img: "/tasks/Videographer.svg" },
+  { name: "Photographer", img: "/tasks/Photographer.svg" },
+  { name: "Emcee", img: "/tasks/Emcee.svg" },
+  { name: "Entertainment", img: "/tasks/Dancer.svg" },
+  { name: "Magician", img: "/tasks/magician.svg" },
+  { name: "DJ", img: "/tasks/DJ.svg" },
 ]
+
+
 
 export const carouselImage = [
   { img: '/CarouselImage.webp' },

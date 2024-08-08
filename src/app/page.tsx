@@ -15,7 +15,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <div className="bg-[url('https://eventstan.com/home/bg-1.svg')] bg-no-repeat bg-cover ">
         <Hero />
         <EventList />

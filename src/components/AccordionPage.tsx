@@ -24,12 +24,12 @@ const AccordionPage = () => {
         setAccordionsHere(updatedAccordions);
     };
     return (
-        <div className='flex justify-center mx-20 '>
-            <div className='w-1/4  flex justify-center items-center'>
-                <h1 className='text-4xl'>Frequently
+        <div className='md:flex md:justify-center md:mx-20 '>
+            <div className='md:w-1/4  flex justify-center items-center'>
+                <h1 className='text-4xl mx-8'>Frequently
                     Asked Questions</h1>
             </div>
-            <div className='w-3/4'>
+            <div className='md:w-3/4'>
                 <div>
                     <div className="p-2 m-8">
                         {accordionsHere.map((accordion) => (
