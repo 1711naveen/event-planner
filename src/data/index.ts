@@ -119,8 +119,24 @@ export const accordions = [
   },]
 
 export const profileData = [
-  { name: "soumya", location: 'CyberDisti, Dubai', data: 'Successfully collaborated with the EventStan Team on a corporate event, partnering with Mr. Sooraj for seamless coordination, meticulous planning, and flawless execution. Exceptional teamwork led to an outstanding event experience!' },
-  { name: "soumya", location: 'CyberDisti, Dubai', data: 'Successfully collaborated with the EventStan Team on a corporate event, partnering with Mr. Sooraj for seamless coordination, meticulous planning, and flawless execution. Exceptional teamwork led to an outstanding event experience!' },
-  { name: "soumya", location: 'CyberDisti, Dubai', data: 'Successfully collaborated with the EventStan Team on a corporate event, partnering with Mr. Sooraj for seamless coordination, meticulous planning, and flawless execution. Exceptional teamwork led to an outstanding event experience!' },
-  { name: "soumya", location: 'CyberDisti, Dubai', data: 'Successfully collaborated with the EventStan Team on a corporate event, partnering with Mr. Sooraj for seamless coordination, meticulous planning, and flawless execution. Exceptional teamwork led to an outstanding event experience!' }
+  {
+    name: "soumya",
+    location: 'CyberDisti, Dubai',
+    data: 'Successfully collaborated with the EventStan Team on a corporate event, partnering with Mr. Sooraj for seamless coordination, meticulous planning, and flawless execution. Exceptional teamwork led to an outstanding event experience!'
+  },
+  {
+    name: "soumya",
+    location: 'CyberDisti, Dubai',
+    data: 'Successfully collaborated with the EventStan Team on a corporate event, partnering with Mr. Sooraj for seamless coordination, meticulous planning, and flawless execution. Exceptional teamwork led to an outstanding event experience!'
+  },
+  {
+    name: "soumya",
+    location: 'CyberDisti, Dubai',
+    data: 'Successfully collaborated with the EventStan Team on a corporate event, partnering with Mr. Sooraj for seamless coordination, meticulous planning, and flawless execution. Exceptional teamwork led to an outstanding event experience!'
+  },
+  {
+    name: "soumya",
+    location: 'CyberDisti, Dubai',
+    data: 'Successfully collaborated with the EventStan Team on a corporate event, partnering with Mr. Sooraj for seamless coordination, meticulous planning, and flawless execution. Exceptional teamwork led to an outstanding event experience!'
+  }
 ]

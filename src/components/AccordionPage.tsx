@@ -24,8 +24,8 @@ const AccordionPage = () => {
         setAccordionsHere(updatedAccordions);
     };
     return (
-        <div className='flex justify-center mx-20 border-2'>
-            <div className='w-1/4 border-2 flex justify-center items-center'>
+        <div className='flex justify-center mx-20 '>
+            <div className='w-1/4  flex justify-center items-center'>
                 <h1 className='text-4xl'>Frequently
                     Asked Questions</h1>
             </div>

@@ -8,6 +8,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
 import TaskList from "@/components/TaskList";
+import Testimonials from "@/components/Testimonials";
 import TrendingServices from "@/components/TrendingServices";
 import Image from "next/image";
 
@@ -26,8 +27,11 @@ export default function Home() {
         <BrandCarousel />
         <AccordionPage />
       </div>
-      <AppImage />
-      <Partners />
+      <div className="bg-[url('https://eventstan.com/home/bg-5.svg')] bg-no-repeat bg-contain ">
+        <AppImage />
+        <Testimonials />
+        <Partners />
+      </div>
       <Footer />
     </main>
   );
