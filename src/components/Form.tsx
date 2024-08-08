@@ -65,13 +65,13 @@ const Form = () => {
                 <div className="mb-5">
                     <div className='bg-[#f0f0f0] dark:bg-gray-700 dark:text-white rounded-2xl p-2'>
                         <label htmlFor="appt" className='text-xs mx-1 block'>Select a time:</label>
-                        <input type="time" id="appt" name="appt" className='bg-[#f0f0f0] border border-white text-gray-900 font-semibold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 border-none outline-none' value="00:00" required />
+                        <input type="time" id="appt" name="appt" className='bg-[#f0f0f0] border border-white text-gray-900 font-semibold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 border-none outline-none' required />
                     </div>
                 </div>
                 <div className="mb-5">
                     <div className='bg-[#f0f0f0] dark:bg-gray-700 dark:text-white rounded-2xl p-2'>
                         <label htmlFor="appt" className='text-xs mx-1 block'>Select a time:</label>
-                        <input type="time" id="appt" name="appt" className='bg-[#f0f0f0] border border-white text-gray-900 font-semibold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 border-none outline-none' value="00:00" required/>
+                        <input type="time" id="appt" name="appt" className='bg-[#f0f0f0] border border-white text-gray-900 font-semibold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 border-none outline-none' required/>
                     </div>
                 </div>
 
