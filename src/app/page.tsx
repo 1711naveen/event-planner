@@ -31,7 +31,7 @@ export default function Home() {
         <Testimonials />
         <Partners />
       </div>
-      <Footer />
+      
     </main>
   );
 }

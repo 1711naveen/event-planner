@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
         <div className="md:flex md:justify-center md:items-center">
-          <div className='md:flex-none text-white flex '>
+          <div className='md:flex-none mx-2 text-white flex '>
             <FaFacebookF className='m-2' />
             <FaInstagram className='m-2' />
             <FaLinkedin className='m-2' />
@@ -82,7 +82,7 @@ const Footer = () => {
             <MacStore />
           </div>
           <div className='md:flex-1 '>
-            <p className='text-white md:text-right text-sm'>© Copyright 2024 EventStan, All Rights Reserved</p>
+            <p className='text-white text-center mt-4 md:text-right text-sm'>© Copyright 2024 EventStan, All Rights Reserved</p>
           </div>
 
         </div>

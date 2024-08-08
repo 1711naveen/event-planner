@@ -25,13 +25,13 @@ const Hero = () => {
             </div>
             <div className='md:w-1/2 bg-[#fff] shadow-2xl rounded-2xl p-2 m-2 '>
                 <div className='flex'>
-                    <div className='w-1/3 text-center p-6 border-b-4 border-r-4 cursor-pointer' onClick={handleClick1}>
+                    <div className='w-1/3 md:text-center p-4 md:p-6 border-b-4 border-r-4 cursor-pointer' onClick={handleClick1}>
                         Create an Event
                     </div>
-                    <div className='w-1/3 text-center p-6 border-b-4 border-r-4 cursor-pointer' onClick={handleClick2}>
+                    <div className='w-1/3 md:text-center p-4 md:p-6 border-b-4 border-r-4 cursor-pointer' onClick={handleClick2}>
                         Hire a Professional
                     </div>
-                    <div className='w-1/3 text-center p-6 border-b-4 cursor-pointer' onClick={handleClick3}>
+                    <div className='w-1/3 md:text-center p-4 md:p-6 border-b-4 cursor-pointer' onClick={handleClick3}>
                         Corporate Bookings
                     </div>
                 </div>
