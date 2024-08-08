@@ -73,49 +73,47 @@ export const brandImage = [
 ]
 
 
-
-
 export const accordions = [
   {
     key: 1,
     title: "How to register/login?",
     data: "You can either log in using your social media handles or by registering your email and creating an own account with EventStan.",
-    isOpne: false,
+    isOpen: false,
   },
 
   {
     key: 2,
     title: "Who can register?",
     data: "Any individual who is looking to do an event, see availability, options and prices can register.",
-    isOpne: false,
+    isOpen: false,
   },
 
   {
     key: 3,
     title: "How to change your password?",
     data: "Password can be changed by requesting for an OTP on your registered mobile number or email.",
-    isOpne: false,
+    isOpen: false,
   },
 
   {
     key: 4,
     title: "What kind of events can I book?",
     data: "We have a variety of events and packages to choose from, however you can also search for options by selecting the event closest to the event you're planning on having.",
-    isOpne: false,
+    isOpen: false,
   },
 
   {
     key: 5,
     title: "How many services can I book at once?",
     data: "There is no limit on the amount of services booked either individually or as part of an event.",
-    isOpne: false,
+    isOpen: false,
   },
 
   {
     key: 6,
     title: "Can I change my service provider after I have confirmed the booking?",
     data: "If the provider has not accepted your booking, you can cancel that service and book a new one under a new event name and booking.",
-    isOpne: false,
+    isOpen: false,
   },]
 
 export const profileData = [
