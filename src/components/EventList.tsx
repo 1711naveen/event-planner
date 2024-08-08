@@ -1,6 +1,6 @@
 import React from 'react'
 import { eventSupported } from '@/data';
-import EventCard from './EventCard';
+import EventCard from '../ui/EventCard';
 
 const EventList = () => {
     return (

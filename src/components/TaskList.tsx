@@ -1,6 +1,6 @@
 import { tasksProvided } from '@/data'
 import React from 'react'
-import TaskCard from './TaskCard'
+import TaskCard from '../ui/TaskCard'
 
 
 const TaskList = () => {

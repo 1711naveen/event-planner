@@ -21,7 +21,16 @@ export const tasksProvided = [
 ]
 
 export const carouselImage = [
-    {img:'/CarouselImage.webp'},
-    {img:'/CarouselImage.webp'},
-    {img:'/CarouselImage.webp'},
+    { img: '/CarouselImage.webp' },
+    { img: '/CarouselImage.webp' },
+    { img: '/CarouselImage.webp' },
+]
+
+export const trendingServices = [
+    { name: "All" },
+    { name: "Venue" },
+    { name: "Entertainment" },
+    { name: "Gifting" },
+    { name: "Decoration" },
+    { name: "Catering" },
 ]
