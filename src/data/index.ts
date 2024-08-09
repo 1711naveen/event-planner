@@ -31,12 +31,12 @@ export const carouselImage = [
 ]
 
 export const trendingServices = [
-  { name: "All", to:'/' },
-  { name: "Venue", to:'/' },
-  { name: "Entertainment", to:'/' },
-  { name: "Gifting", to:'/' },
-  { name: "Decoration", to:'/' },
-  { name: "Catering", to:'/' },
+  { name: "All", to: '/' },
+  { name: "Venue", to: '/' },
+  { name: "Entertainment", to: '/' },
+  { name: "Gifting", to: '/' },
+  { name: "Decoration", to: '/' },
+  { name: "Catering", to: '/' },
 ]
 
 export const data = [
@@ -141,4 +141,36 @@ export const profileData = [
     location: 'CyberDisti, Dubai',
     data: 'Successfully collaborated with the EventStan Team on a corporate event, partnering with Mr. Sooraj for seamless coordination, meticulous planning, and flawless execution. Exceptional teamwork led to an outstanding event experience!'
   }
+]
+
+export const reasons = [
+  {
+    why: "Pay Nothing",
+    answer: "No subscription or registration fee and enjoy hassle free payouts",
+  },
+
+  {
+    why: "Easy Find",
+    answer: "There is complete transparency on EventStan - showcase your brand identity your way",
+  },
+
+  {
+    why: "Partner Portal",
+    answer: "The EventStan Partner Portal is the hub for everything a partner needs to track, grow and manage their business",
+  },
+
+  {
+    why: "Retain more Customers",
+    answer: "Improved customer experience with us by your side, we go the extra mile",
+  },
+
+  {
+    why: "Generate New Leads",
+    answer: "Grow your network by going to market with the #1-portal in the event space",
+  },
+
+  {
+    why: "Get Insider Access",
+    answer: "Learn about partnership opportunities, market trends and analytics.",
+  },
 ]
