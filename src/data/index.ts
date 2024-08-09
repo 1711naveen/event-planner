@@ -31,12 +31,12 @@ export const carouselImage = [
 ]
 
 export const trendingServices = [
-  { name: "All" },
-  { name: "Venue" },
-  { name: "Entertainment" },
-  { name: "Gifting" },
-  { name: "Decoration" },
-  { name: "Catering" },
+  { name: "All", to:'/' },
+  { name: "Venue", to:'/' },
+  { name: "Entertainment", to:'/' },
+  { name: "Gifting", to:'/' },
+  { name: "Decoration", to:'/' },
+  { name: "Catering", to:'/' },
 ]
 
 export const data = [

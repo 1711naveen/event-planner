@@ -9,7 +9,7 @@ const TrendingServices = () => {
       <div className='grid grid-cols-2 gap-4 md:flex mb-20 '>
         {
             trendingServices.map((service,i)=>{
-                return <TrendingButton key={i} name={service.name}/>
+                return <TrendingButton key={i} name={service.name} to={service.to}/>
             })
         }
       </div>

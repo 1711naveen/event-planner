@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2b2b2b]">
+    <footer className="bg-[#2b2b2b] h-full">
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <div>
@@ -82,9 +82,8 @@ const Footer = () => {
             <MacStore />
           </div>
           <div className='md:flex-1 '>
-            <p className='text-white text-center mt-4 md:text-right text-sm'>© Copyright 2024 EventStan, All Rights Reserved</p>
+            <p className='text-white text-center mt-4 md:text-right text-sm'>© Copyright 2024 EventStan, All Rights Reserved </p>
           </div>
-
         </div>
       </div>
     </footer >

@@ -1,9 +1,11 @@
 'use client'
 import { data } from '@/data';
-import React from 'react'
+import React, { Suspense } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ImageSkeletom from './ImageSkeletom';
+import Image from 'next/image';
 
 
 const Carousel = () => {
@@ -43,15 +45,17 @@ const Carousel = () => {
     };
     return (
         <div className='md:w-4/5 mx-auto md:my-20'>
-            <Slider {...settings}>
-                {
-                    data.map((d, i) => (
-                        <div key={i} >
-                            <img src={d.img} className='rounded-xl px-2' />
-                        </div>
-                    ))
-                }
-            </Slider>
+            <Suspense fallback={<ImageSkeletom />}>
+                <Slider {...settings}>
+                    {
+                        data.map((d, i) => (
+                            <div key={i} >
+                                <Image src={d.img} alt='to be changed' className='rounded-xl px-2' height={300} width={390} />
+                            </div>
+                        ))
+                    }
+                </Slider>
+            </Suspense>
         </div>
     )
 }
